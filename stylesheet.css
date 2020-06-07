@@ -1,0 +1,658 @@
+*{
+    box-sizing: border-box;
+}
+
+
+/*------------------------------------------- navbar--------------------------------------------- */
+.navbar{
+    border-radius: 10px;
+    background-color: #ffffff;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    box-sizing: border-box;
+    box-shadow: 1px 3px 3px 0px #ffaaa5;
+}
+
+.navbar-brand,
+.nav-link{
+    color: #ffaaa5!important;
+}
+
+.getstarted{
+    padding: 10px 20px!important;
+    border: 1px solid #ffaaa5;
+    color: #ffffff!important;
+    background-color: #ffaaa5;
+    border-radius: 10px;
+}
+
+.getstarted:hover{
+    color: #ffaaa5!important;
+    background-color: transparent;
+    transition: .3s all ease-in-out;
+}
+
+/*---------------------x---------------------- navbar--------------------x------------------------- */
+
+/*------------------------------------------- header--------------------------------------------- */
+.header{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(90deg, rgba(244,130,124,1) 0%, rgba(255,182,170,1) 47%, rgba(252,207,178,1) 71%, rgba(251,221,201,1) 91%);
+}
+.header_image{
+    height: 100vh;
+    width: 100%;
+}
+.header_image img{
+    height: 100vh;
+    width: 100%;
+    opacity: .3;
+}
+.heading{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index:2;
+}
+.heading p{
+    padding-top: 250px;
+    font-size: 60px;
+    font-family:serif;
+}
+.heading button{
+    background: transparent;
+    border: 1px solid #ffffff;
+    padding: 15px 30px;
+    border-radius: 35px;
+
+}
+.heading button a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.heading button:hover{
+    background-color: #ffffff;
+    transition: .3s all ease-in-out;
+}
+.heading button:hover a{
+    color: #ffaaa5;
+}
+
+.wave_image{
+    width: 100%;
+    height: 20vh;
+    position: absolute;
+    top: 67vh;
+    display: none;
+}
+
+/*----------x-------------x-------------------- header--------------------x---------------------x---- */
+
+/*------------------------------------------- design--------------------------------------------- */
+
+.design_rowsetting{
+    padding: 50px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.design_imagesetting{
+    padding-top: 30px;
+}
+.design_imagediv{
+    cursor: pointer;
+    position: relative;
+}
+.designeffect{
+    position: absolute;
+    top: 0;
+    background-color: #ffaaa5;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    opacity: 0;
+}
+.designeffect_setting{
+    margin-top: 30px;
+}
+.design_imagediv:hover .designeffect{
+    opacity: .8;
+    transition: .3s all linear;
+}
+.designeffect_details{
+    position: relative;
+    top: 20px;
+    text-align: center;
+}
+.designeffect_image{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+.designeffect_image img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.designeffect_image p{
+    margin-top: 10px;
+    margin-left: 7px;
+}
+
+/*---------x--------------------------x-------- design-------x----------------x---------------------- */
+
+/*------------------------------------------- designwritten --------------------------------------------- */
+
+.design_written{
+    padding: 100px 0px;
+}
+.design_written p{
+    font-size: 40px;
+}
+.design_written button{
+    padding: 20px 30px;
+    border-radius: 35px;
+    border: #ffaaa5 solid 1px;
+    background-color: #ffaaa5;
+}
+.design_written button:hover{
+    background-color: #ffffff;
+    transition: .3s linear all;
+}
+.design_written button:hover a{
+    color: #ffaaa5;
+}
+.design_written button a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+/*-------------------------x------------------ designwritten ---------------------x------------------------ */
+
+/*------------------------------------------- services --------------------------------------------- */
+
+.services{
+    padding: 100px 0px;
+}
+.services p{
+    font-size: 15px;
+    color: #ffaaa5;
+}
+.services h3{
+    font-size: 40px;
+}
+.services_rowsetting{
+    padding-top: 50px;
+}
+.services_details i{
+    color: #ffaaa5;
+    padding-bottom: 20px;
+}
+
+/*-----------------------x-------------------- services --------------------x------------------------- */
+
+/*--------------------------------------------- newsletter --------------------------------------------*/
+
+.newsletter{
+    padding: 100px 0px;
+    background: linear-gradient(90deg, rgba(244,130,124,1) 0%, rgba(255,182,170,1) 47%, rgba(252,207,178,1) 71%, rgba(251,221,201,1) 91%);
+}
+.newsletter input{
+    border: 1px solid #ffffff;
+    border-radius: 35px;
+    padding: 10px 35px;
+}
+.newsletter_subssription i{
+    cursor: pointer;
+}
+
+/*-----------------------x---------------------- newsletter ------------------x--------------------------*/
+
+/*--------------------------------------------- work --------------------------------------------*/
+
+.work{
+    padding: 100px 0px;
+}
+.work p{
+    color: #ffaaa5;
+}
+.work h3{
+    font-size: 40px;
+}
+.illustration,
+.application{
+    padding: 50px 0px;
+}
+.illustration_rowsetting{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.illustration_rowsetting img{
+    box-shadow: 15px 15px 0px 3px #ffaaa5;
+}
+.illustration_columnsetting{
+    padding-left: 40px;
+}
+.illustration_columnsetting p{
+    color: #ffaaa5;
+    padding-top: 20px;
+}
+.illustration_columnsetting h3{
+    line-height: 40px;
+    font-size: 35px;
+}
+.illustration_columnsetting button:hover{
+    background-color: transparent;
+    transition: .3s all linear;
+}
+.illustration_columnsetting button:hover a{
+    color: #ffaaa5;
+}
+
+.application_columnsetting{
+    padding-top: 20px;
+}
+.application_rowsetting img{
+    box-shadow: 15px 15px 0px 3px #ffaaa5;
+}
+.application_columnsetting p{
+    color: #ffaaa5;
+}
+.application_columnsetting .text-secondary{
+    padding-top: 20px;
+}
+.application_columnsetting h3{
+    line-height: 40px;
+    font-size: 35px;
+}
+.application_columnsetting button,
+.illustration_columnsetting button{
+    padding: 10px 15px;
+    border-radius: 35px;
+    border: #ffaaa5 solid 1px;
+    background-color: #ffaaa5;
+}
+.illustration_columnsetting button a,
+.application_columnsetting button a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.application_columnsetting button:hover{
+    background-color: transparent;
+    transition: .3s all linear;
+}
+.application_columnsetting button:hover a{
+    color: #ffaaa5;
+}
+
+/*------------------------x--------------------- work --------------------x------------------------*/
+
+/*----------------------------------------- comments --------------------------------------------*/
+
+.comments{
+    padding: 100px 0px;
+}
+.comments p{
+    color: #ffaaa5;
+}
+.comments h3{
+    font-size: 40px;
+}
+.wrapper{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    position: relative;
+}
+.item{
+    padding: 20px;
+    height: auto;
+    text-align: center;
+    background-color: #ffffff;
+    box-shadow: #cecece 2px 2px 5px 1px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.wrapper .item img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+.wrapper .item p{
+    color: #aaa9a9;
+}
+.wrapper .item h6{
+    color: #ffd0a5;
+}
+.wrapper .item span{
+    color: #aaa9a9;
+}
+
+/*------------------------x----------------- comments ---------------------x-----------------------*/
+
+/*----------------------------------------- achievements --------------------------------------------*/
+
+.achievements{
+    padding: 100px 0px;
+    background-color: #ffaaa5;
+}
+.achievements h3{
+    font-size: 40px;
+}
+.achievements p{
+    color: #fadedc;
+    font-size: 20px;
+}
+.achievements_rowsetting{
+    padding-top: 50px;
+}
+.numbers{
+    font-size: 50px!important;
+    color: #ffffff!important;
+}
+
+/*-----------------------x------------------ achievements -----------------------x---------------------*/
+
+/*----------------------------------------- blog --------------------------------------------*/
+
+.blog{
+    padding: 100px 0px;
+}
+.blog p{
+    color: #aaa9a9;
+}
+.blog h3{
+    font-size: 40px;
+}
+.blog_rowsetting{
+    padding-top: 100px;
+}
+.blog_column{
+    cursor: pointer;
+}
+.blog_image img{
+    padding: 0;
+    margin: 0;
+}
+.blog_details{
+    padding-top: 30px;
+}
+.blog_details p{
+    color: #aaa9a9;
+}
+.blog_column:hover{
+    box-shadow: 2px 2px 2px 1px #cecece;
+    transition: all .3s linear;
+}
+.blog_details:hover h4{
+    color: #ffaaa5;
+    transition: all .3s linear;
+}
+
+/*----------------------x------------------- blog -----------------------x---------------------*/
+
+/*--------------------------------------- footer ---------------------------------------------*/
+
+footer{
+    padding: 100px 0px;
+    background: linear-gradient(90deg, rgba(244,130,124,1) 0%, rgba(255,182,170,1) 47%, rgba(252,207,178,1) 71%, rgba(251,221,201,1) 91%);
+}
+
+.footer_container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+.quicklinks,
+.contactinfo
+{
+    display: inline-flex;
+    flex-direction: column;
+}
+.quicklinks a,
+.contactinfo a
+{
+    text-decoration: none;
+    color: #ffffff;
+    padding: 5px 0px;
+}
+.social div{
+    height: 50px;
+    width: 50px;
+    background-color: #ffd0a5;
+    border-radius: 50%;
+    line-height: 50px;
+    margin: 10px 0px;
+}
+.social a{
+    text-decoration: none;
+    color: #ffffff;
+    padding-top: 30px;
+
+}
+
+/*--------------------x------------------- footer ------------------------x---------------------*/
+
+
+/*----------------------------------------- pages CSS ------------------------------------------*/
+
+.heading_about{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index:2;
+}
+.heading_about p{
+    padding-top:300px ;
+    font-size: 50px;
+}
+
+.contactpage_information{
+    padding: 50px 0px;
+}
+.contactpage_rowsetting{
+    padding-top: 30px;
+}
+.contactpage_columnsetting .row{
+    margin: 10px 0px;
+}
+.contactpage_columnsetting .row input{
+    width: 100%;
+}
+.contactpage_columnsetting .row button{
+    width: 100%;
+    color: #ffaaa5;
+    border: 1px #ffaaa5 solid;
+    font-weight: bold;
+}
+.contactpage_columnsetting .row button:hover{
+    color: #ffffff;
+    background-color: #ffaaa5;
+    transition: .3s all linear;
+}
+.message{
+    height: 150px;
+}
+.map{
+    width: 100%;
+    height: auto;
+}
+
+/*------------------------x----------------- pages CSS -------------------x-----------------------*/
+
+
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+
+/*--------------------------------------- mediaqueries -----------------------------------------*/
+
+@media only screen and (max-width:1200px) and (min-width:992px)
+{
+    .heading p{
+        padding-top: 180px;
+        font-size: 60px;
+    }
+    .designeffect_image{
+        margin-top: 50px;
+    }
+    
+}
+
+
+@media only screen and (max-width:992px)
+{
+    .heading p{
+        padding-top: 180px;
+        font-size: 50px;
+    }
+    .designeffect_image{
+        margin-top: 50px;
+    }
+    .design_written p,
+    .work h3,
+    .services h3,
+    .blog h3,
+    .comments h3,
+    .achievements h3,
+    .newsletter .text-white
+    {
+        font-size: 30px!important;
+    }
+    .illustration_rowsetting img,
+    .application_rowsetting img
+    {
+        height: 350px;
+    }
+    .illustration_columnsetting h3,
+    .application_columnsetting h3
+    {
+        line-height: normal;
+        font-size: 30px;
+    }
+    .illustration_columnsetting p,
+    .application_columnsetting .text-secondary
+    {
+        padding-top: 0px;
+    }
+}
+@media only screen and (max-width:768px)
+{
+    .designeffect_image{
+        margin-top: 80px;
+    }  
+    .design_image{
+        margin: 15px 0px;
+    }  
+    .illustration_columnsetting{
+        padding-left: 20px;
+    }
+    .illustration_rowsetting img,
+    .application_rowsetting img
+    {
+        height: auto
+    }
+    .application_rowsetting img{
+        margin-top: 20px;
+    }
+    .footer_container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .illustration_columnsetting p,
+    .application_columnsetting p
+    {
+        padding-top: 30px;
+    }
+    .blog_column{
+        padding: 20px;
+    }
+}
+
+@media only screen and (max-width:576px)
+{   
+    .design_written p,
+    .work h3,
+    .services h3,
+    .blog h3,
+    .comments h3,
+    .achievements h3,
+    .newsletter .text-white
+    {
+        font-size: 25px!important;
+    }
+    .design_image{
+        margin: 20px;
+    }
+    .services_details{
+        padding: 20px 30px;
+    }
+    /* .application_columnsetting h3{
+        line-height: normal;
+        font-size: 30px!important;
+    } */
+    .application_rowsetting,
+    .illustration_rowsetting
+    {
+        padding: 30px;
+    }
+    .achievements p{
+      font-size: 17px;
+    }
+    .numbers{
+        font-size: 30px!important;
+    }
+    .blog_rowsetting{
+        padding: 50px;
+    }
+}
+@media only screen and (max-width:375px)
+{   
+    .heading p{
+        padding-top: 180px;
+        font-size: 35px;
+    }
+    .blog_details h4{
+        font-size: 20px!important;
+    }
+    .illustration_columnsetting h3,
+    .application_columnsetting h3
+    {
+        font-size: 24px;
+    }
+}
+@media only screen and (max-width:320px)
+{
+    .illustration_columnsetting h3,
+    .application_columnsetting h3
+    {
+        font-size: 21px;
+    }
+}
+
+/*------------------------x--------------- mediaqueries --------------------x---------------------*/
+
+
+
+
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+
+
